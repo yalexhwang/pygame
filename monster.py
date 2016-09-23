@@ -13,7 +13,7 @@ class Monster(Sprite):
 		self.direction = random.randint(0, 1)
 
 		#randomize monster images
-		img = ['monster1.png', 'tyrannosaurus_rex.png', 'masktoy.png']
+		img = ['m-black.png', 'm-purple.png', 'm-boss.png', 'm-octopus.png', 'm-tongue.png', 'm-tyrano.png']
 		img_i = random.randint(0, len(img) - 1)
 		self.image = pygame.image.load('images/' + img[img_i])
 	
